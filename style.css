@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(120deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  min-width: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #bbb;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #bbb;
+  background-color: #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #405de6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5851db;
+}
+
+div {
+  border-radius: 7px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
